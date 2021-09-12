@@ -3,7 +3,7 @@
 <!DOCTYPE registro SYSTEM "tareas.dtd">
 
 <registro>
-  <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html">Inicio</a>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html">Inicio</a>
   <facultad codigoFacultad="FIAUES">
     <nombreFacultad>Facultad de Ingeniería y Arquitectura</nombreFacultad>
     <carrera codigo="I10515">
