@@ -6,6 +6,7 @@
 }
 curriculum{
     display: block;
+    background-color: rgb(110, 233, 110);
 }
 titulo{
     color: rgb(48, 88, 223);
@@ -38,6 +39,7 @@ datos{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    font-size: medium;
 }
 elementos{
     display: block;
