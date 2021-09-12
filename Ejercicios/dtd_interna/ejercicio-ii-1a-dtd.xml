@@ -1,20 +1,31 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!-- ejemplodtd1.xml -->
+<!-- ejercicio-ii-1a-dtd.xml  Grupo 13 -->
 
 <!DOCTYPE fichero [
-		<!ELEMENT fichero (ficha+)>
-		<!ELEMENT ficha (nombre, apellido, direccion*, DUI?)>
-		<!ELEMENT nombre (#PCDATA)>
-		<!ATTLIST nombre sexo (masculino|femenino) #REQUIRED>
-            	<!ATTLIST nombre edad  CDATA  #IMPLIED>
-		<!ELEMENT apellido (#PCDATA)>
-		<!ELEMENT direccion (#PCDATA)>
-		<!ELEMENT DUI (#PCDATA)>
-		]>
+  <!ELEMENT fichero (titulo, ficha+)>
+  <!ELEMENT titulo (#PCDATA)>
+	<!ELEMENT ficha (nombre, apellido, telefono, direccion*, dui?)>
+	<!ELEMENT nombre (#PCDATA)>
+	<!ATTLIST nombre
+	  sexo (masculino|femenino) #REQUIRED
+	  edad  CDATA  #IMPLIED>
+
+	<!ELEMENT apellido (#PCDATA)>
+	<!ELEMENT telefono (#PCDATA)>
+  <!ATTLIST telefono
+    tipo (fijo | celular) #REQUIRED>
+
+	<!ELEMENT direccion (#PCDATA)>
+	<!ELEMENT dui (#PCDATA)>
+]>
 <fichero>
- <ficha>
-  <nombre sexo="femenino" edad="17">Angelina</nombre>
-  <apellido>Fernandez</apellido>
-  <direccion>c/Ulises, 36</direccion>
- </ficha>
+  <titulo>Fichero</titulo>
+  <ficha>
+    <nombre sexo="femenino">Angelina</nombre>
+    <apellido>Fernandez</apellido>
+    <telefono tipo="fijo">22577777</telefono>
+    <direccion>c/Ulises, 36</direccion>
+    <direccion>c/Tobias, 36</direccion>
+    <dui>12345678-9</dui>
+  </ficha>
 </fichero>
