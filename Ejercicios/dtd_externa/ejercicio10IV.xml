@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/Ejercicios/dtd_externa/ejercicio10IV.css"?>
+<!DOCTYPE curriculum SYSTEM "ejercicio10IV.dtd">
+<curriculum>
+  <titulo>Curriculum Vitae</titulo>
+  <perfil>
+    <bloq>
+      <foto>foto</foto>
+      <nombre>Joaquin Eleazar</nombre>
+      <apellido>Aguilar Montero</apellido>
+    </bloq>
+  </perfil>
+  <perfil>
+    <bloque>
+      <subtitulo name="perfil">Perfil</subtitulo>
+      <datos name="Edad">30 años</datos>
+      <datos name="Telefono">7000-2020</datos>
+      <datos name="Direccion">San salvador, La colonia</datos>
+      <datos name="Correo Electronico">curriculumtpi@mail.com</datos>
+    </bloque>
+  </perfil>
+  <elementos>
+    <formacion>
+      <bloque>
+        <subtitulo name="formacion">Formación</subtitulo>
+        <datos name="Tiempo">4 años</datos>
+        <datos name="Lugar">Colegio Nuevo San Salvador</datos>
+        <datos name="Estudio realizado">Educación Básica</datos>
+      </bloque>
+      <bloque>
+        <datos name="Tiempo">4 años</datos>
+        <datos name="Lugar">Instituto Nacional Aprendiendo Todos</datos>
+        <datos name="Estudio realizado">Bachillerato General</datos>
+      </bloque>
+    </formacion>
+    <experiencia>
+      <bloque>
+        <subtitulo name="Experiencia">Experiencia</subtitulo>
+        <datos name="Tiempo">4 años</datos>
+        <datos name="Lugar">Empresa Credemax</datos>
+        <datos name="Cargo">Programador</datos>
+      </bloque>
+    </experiencia>
+  </elementos>
+</curriculum>

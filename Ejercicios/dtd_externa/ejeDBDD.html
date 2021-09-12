@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="/Ejercicios/dtd_externa/ejercicio10IV.css"?>
+<!DOCTYPE curriculum [
+  <!ELEMENT curriculum (titulo, perfil, perfil,  elementos) >
+  <!ELEMENT perfil (bloq? | bloque) >
+  <!ELEMENT bloq (foto , nombre , apellido) >
+  <!ELEMENT bloque (datos*) >
+  <!ELEMENT elementos (subtitulo+  | formacion | experiencia) >
+  <!ELEMENT formacion (bloque*) >
+  <!ELEMENT experiencia (bloque*) >
+  <!ELEMENT titulo (#PCDATA) >
+  <!ELEMENT foto (#PCDATA) >
+  <!ELEMENT nombre (#PCDATA) >
+  <!ELEMENT apellido (#PCDATA) >
+  <!ELEMENT subtitulo (#PCDATA) >
+  <!ATTLIST subtitulo name CDATA #REQUIRED >
+  <!ELEMENT datos (#PCDATA) >
+  <!ATTLIST datos name CDATA #REQUIRED >
+]>
+<curriculum>
+  <titulo>Curriculum Vitae</titulo>
+  <perfil>
+    <bloq>
+      <foto>aqui va la foto</foto>
+      <nombre>Joaquin Eleazar</nombre>
+      <apellido>Aguilar Montero</apellido>
+    </bloq>
+  </perfil>
+  <perfil>
+    <bloque>
+      <subtitulo name="perfil">Perfil</subtitulo>
+      <datos name="Edad">30 años</datos>
+      <datos name="Telefono">7000-2020</datos>
+      <datos name="Direccion">San salvador, La colonia</datos>
+      <datos name="Correo Electronico">curriculumtpi@mail.com</datos>
+    </bloque>
+  </perfil>
+  <elementos>
+    <subtitulo name="formacion">Formación</subtitulo>
+    <formacion>
+      <bloque>
+        <datos name="Tiempo">4 años</datos>
+        <datos name="Lugar">Colegio Nuevo San Salvador</datos>
+        <datos name="Estudio realizado">Educación Básica</datos>
+      </bloque>
+      <bloque>
+      <datos name="Tiempo">4 años</datos>
+      <datos name="Lugar">Instituto Nacional Aprendiendo Todos</datos>
+      <datos name="Estudio realizado">Bachillerato General</datos>
+      </bloque>
+    </formacion>
+    <subtitulo name="Experiencia">Experiencia</subtitulo>
+    <experiencia>
+      <bloque>
+        <datos name="Tiempo">4 años</datos>
+        <datos name="Lugar">Empresa Credemax</datos>
+        <datos name="Cargo">Programador</datos>
+      </bloque>
+    </experiencia>
+  </elementos>
+</curriculum>
