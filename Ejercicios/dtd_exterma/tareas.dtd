@@ -1,0 +1,27 @@
+<!ELEMENT registro (facultad+)>
+<!ATTLIST registro fuente CDATA #FIXED "Universidad de El Salvador">
+<!ELEMENT facultad (nombreFacultad, carrera+)>
+<!ATTLIST facultad codigoFacultad CDATA #REQUIRED>
+<!ELEMENT nombreFacultad (#PCDATA)>
+<!ELEMENT carrera (nombreCarrera, materia+)>
+<!ATTLIST carrera codigoCarrera CDATA #REQUIRED>
+<!ELEMENT nombreCarrera (#PCDATA)>
+<!ELEMENT materia (nombremat,tabla?)>
+<!ELEMENT tabla (gt│gl│gd)*>
+<!ATTLIST materia codigomat CDATA #REQUIRED>
+<!ELEMENT nombremat (#PCDATA)>
+<!ELEMENT gt (encargado*)>
+<!ATTLIST gt numero CDATA #REQUIRED>
+<!ATTLIST gt desc CDATA #IMPLIED>
+<!ELEMENT encargado (actividad, porcentaje, equipo+)>
+<!ATTLIST encargado idenc CDATA #REQUIRED>
+<!ATTLIST encargado nombrenc CDATA #REQUIRED>
+<!ELEMENT actividad (#PCDATA)>
+<!ELEMENT porcentaje (#PCDATA)>
+<!ATTLIST equipo id CDATA #REQUIRED>
+<!ATTLIST equipo tema CDATA #REQUIRED>
+<!ELEMENT equipo (coordinador, integrante, integrante, integrante)>
+<!ELEMENT coordinador (carnet, nombres, apellidos)>
+<!ELEMENT integrante (carnet, nombres, apellidos)>
+<!ATTLIST coordinador sexo (M│F) #REQUIRED>
+<!ATTLIST integrante sexo (M│F) #REQUIRED>

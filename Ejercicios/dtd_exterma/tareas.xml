@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="tareas.css" ?>
+<!DOCTYPE registro SYSTEM "tareas.dtd">
+
+<registro>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="../index.html">Inicio</a>
+  <facultad codigoFacultad="FIAUES">
+    <nombreFacultad>Facultad de Ingeniería y Arquitectura</nombreFacultad>
+    <carrera codigo="I10515">
+      <nombreCarrera>Ingenieria de Sistemas Informáticos</nombreCarrera>
+      <materia codigomat="TPI115">
+        <nombremat>Tecnicas de programacion para internet</nombremat>
+        <tabla>
+        <gt numero="01" desc="Grupo Teórico">
+          <encargado idenc="TPI01" nombrenc="Ing. Balmore Ortiz">
+            <actividad>Tarea Ex-Aula</actividad>
+            <porcentaje>25%</porcentaje>
+            <equipo id="01" tema="Desarrollo de un sitio web sobre Python">
+              <coordinador sexo="F">
+                <carnet>AA19012</carnet>
+                <nombres>Fatima Mercedes</nombres>
+                <apellidos>Aguilar Aguirre</apellidos>
+              </coordinador>
+              <intengrante sexo="M">
+                <carnet>BQ18002</carnet>
+                <nombres>Edwin Isaac</nombres>
+                <apellidos>Bernabe Quintanilla</apellidos>
+              </intengrante>
+              <intengrante sexo="M">
+                <carnet>HZ18004</carnet>
+                <nombres>Cristian Alexis</nombres>
+                <apellidos>Hernandez Zamora</apellidos>
+              </intengrante>
+              <intengrante  sexo="M">
+                <carnet>HG19010</carnet>
+                <nombres>Andres Oswaldo</nombres>
+                <apellidos>Henriquez Gomez</apellidos>
+              </intengrante>
+            </equipo>
+            <equipo id="02" tema="Desarrollo de un sitio web sobre JAVA">
+              <coordinador sexo="F">
+                <carnet>AA19012</carnet>
+                <nombres>Fatima Mercedes</nombres>
+                <apellidos>Aguilar Aguirre</apellidos>
+              </coordinador>
+              <intengrante sexo="M">
+                <carnet>BQ18002</carnet>
+                <nombres>Edwin Isaac</nombres>
+                <apellidos>Bernabe Quintanilla</apellidos>
+              </intengrante>
+              <intengrante sexo="M">
+                <carnet>HZ18004</carnet>
+                <nombres>Cristian Alexis</nombres>
+                <apellidos>Hernandez Zamora</apellidos>
+              </intengrante>
+              <intengrante  sexo="M">
+                <carnet>HG19010</carnet>
+                <nombres>Andres Oswaldo</nombres>
+                <apellidos>Henriquez Gomez</apellidos>
+              </intengrante>
+            </equipo>
+            <equipo id="03" tema="Desarrollo de un sitio web sobre C#">
+              <coordinador sexo="F">
+                <carnet>AA19012</carnet>
+                <nombres>Fatima Mercedes</nombres>
+                <apellidos>Aguilar Aguirre</apellidos>
+              </coordinador>
+              <intengrante sexo="M">
+                <carnet>BQ18002</carnet>
+                <nombres>Edwin Isaac</nombres>
+                <apellidos>Bernabe Quintanilla</apellidos>
+              </intengrante>
+              <intengrante sexo="M">
+                <carnet>HZ18004</carnet>
+                <nombres>Cristian Alexis</nombres>
+                <apellidos>Hernandez Zamora</apellidos>
+              </intengrante>
+              <intengrante  sexo="M">
+                <carnet>HG19010</carnet>
+                <nombres>Andres Oswaldo</nombres>
+                <apellidos>Henriquez Gomez</apellidos>
+              </intengrante>
+            </equipo>
+          </encargado>
+        </gt>
+        <gl numero="02" desc="Grupo de Laboratorio">
+          <encargado idenc="TPI01" nombrenc="Ing. Balmore Ortiz">
+            <actividad>Tarea Ex-Aula</actividad>
+            <porcentaje>25%</porcentaje>
+            <equipo id="01" tema="Desarrollo de un sitio web sobre Python">
+              <coordinador sexo="F">
+                <carnet>AA19012</carnet>
+                <nombres>Fatima Mercedes</nombres>
+                <apellidos>Aguilar Aguirre</apellidos>
+              </coordinador>
+              <intengrante sexo="M">
+                <carnet>BQ18002</carnet>
+                <nombres>Edwin Isaac</nombres>
+                <apellidos>Bernabe Quintanilla</apellidos>
+              </intengrante>
+              <intengrante sexo="M">
+                <carnet>HZ18004</carnet>
+                <nombres>Cristian Alexis</nombres>
+                <apellidos>Hernandez Zamora</apellidos>
+              </intengrante>
+              <intengrante  sexo="M">
+                <carnet>HG19010</carnet>
+                <nombres>Andres Oswaldo</nombres>
+                <apellidos>Henriquez Gomez</apellidos>
+              </intengrante>
+            </equipo>
+          </encargado>
+        </gl>
+        <gd numero="03" desc="Grupo de Discusión">
+          <encargado idenc="TPI01" nombrenc="Ing. Balmore Ortiz">
+            <actividad>Tarea Ex-Aula</actividad>
+            <porcentaje>25%</porcentaje>
+            <equipo id="01" tema="Desarrollo de un sitio web sobre Python">
+              <coordinador sexo="F">
+                <carnet>AA19012</carnet>
+                <nombres>Fatima Mercedes</nombres>
+                <apellidos>Aguilar Aguirre</apellidos>
+              </coordinador>
+              <intengrante sexo="M">
+                <carnet>BQ18002</carnet>
+                <nombres>Edwin Isaac</nombres>
+                <apellidos>Bernabe Quintanilla</apellidos>
+              </intengrante>
+              <intengrante sexo="M">
+                <carnet>HZ18004</carnet>
+                <nombres>Cristian Alexis</nombres>
+                <apellidos>Hernandez Zamora</apellidos>
+              </intengrante>
+              <intengrante  sexo="M">
+                <carnet>HG19010</carnet>
+                <nombres>Andres Oswaldo</nombres>
+                <apellidos>Henriquez Gomez</apellidos>
+              </intengrante>
+            </equipo>
+          </encargado>
+        </gd>
+      </tabla>
+      </materia>
+    </carrera>
+  </facultad>
+</registro>

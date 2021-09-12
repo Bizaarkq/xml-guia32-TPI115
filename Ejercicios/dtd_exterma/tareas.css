@@ -1,0 +1,94 @@
+registro{
+    background-color: aliceblue;
+    text-align: justify;
+    padding: 2.5em;
+    
+}
+
+registro[fuente]::before{
+    content: attr(origen);
+    color:#56070C;
+    font-weight: bold;
+    font-size: 2.5em;
+
+}
+
+a{
+    font-size: 1em;
+    color:steelblue;
+}
+
+nombreFacultad{
+    font-size: 2em;
+    font-weight: bold;
+    display:block;
+}
+
+nombreCarrera{
+    font-size: 1.5em;
+    font-weight: bold;
+    display:block;
+}
+
+tabla{
+    display: flex;
+    width: auto;
+}
+
+nombremat{
+    content: attr(nombremat);
+    font-size: 1.75em;
+    color: blueviolet;
+    display: block;
+    text-align: center;
+}
+
+gt[desc]::before,gl[desc]::before,gd[desc]::before{
+    content: attr(desc);
+    color:#56070C;
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+
+gt,gl,gd{
+    display:inline;
+    padding: 1em 2em;
+    
+}
+
+encargado[nombrenc]::before{
+    content: attr(nombrenc);
+    color:royalblue;
+    font-size: 1em;
+    text-align: center;
+    display: block;
+}
+
+actividad,porcentaje{
+    color:salmon;
+    font-size: 1.25em;
+    text-align: center;
+    display: block;
+}
+
+equipo[tema]::before{
+    content: attr(tema);
+    color: seagreen;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+equipo{
+    display: block;
+    margin-bottom: 0.7em;
+}
+
+coordinador, intengrante{
+    display: block;
+}
+
+coordinador{
+    color:teal;
+}
+
