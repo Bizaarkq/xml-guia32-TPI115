@@ -1,4 +1,4 @@
-  <!ELEMENT curriculum (titulo, perfil, perfil,  elementos) >
+  <!ELEMENT curriculum (titulo, perfil, perfil,  elementos, a) >
   <!ELEMENT perfil (bloq? | bloque) >
   <!ELEMENT bloq (foto , nombre , apellido) >
   <!ELEMENT elementos (formacion , experiencia) >
@@ -6,10 +6,13 @@
   <!ELEMENT experiencia (bloque*) >
   <!ELEMENT bloque (subtitulo?, datos*) >
   <!ELEMENT titulo (#PCDATA) >
-  <!ELEMENT foto (#PCDATA) >
+  <!ELEMENT foto EMPTY >
   <!ELEMENT nombre (#PCDATA) >
   <!ELEMENT apellido (#PCDATA) >
   <!ELEMENT subtitulo (#PCDATA) >
+  <!ELEMENT a (#PCDATA) >
   <!ATTLIST subtitulo name CDATA #REQUIRED >
   <!ELEMENT datos (#PCDATA) >
   <!ATTLIST datos name CDATA #REQUIRED >
+  <!ATTLIST foto src CDATA #IMPLIED xmlns CDATA #IMPLIED>
+  <!ATTLIST a href CDATA #IMPLIED xmlns CDATA #IMPLIED target (_blank|_self|marco) "_blank">

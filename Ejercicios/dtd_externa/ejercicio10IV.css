@@ -24,9 +24,10 @@ perfil{
 foto, nombre, apellido{
     display: block;
 }
-foto{
-    padding: 2rem;
-}
+/*foto{
+    height: 50px;
+    width: 50px;
+}*/
 nombre, apellido{
     padding: 1rem 1rem 0.5rem 2rem;
     font-size: 0.7cm;

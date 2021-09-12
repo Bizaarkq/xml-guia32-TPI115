@@ -5,7 +5,7 @@
   <titulo>Curriculum Vitae</titulo>
   <perfil>
     <bloq>
-      <foto>foto</foto>
+      <foto xmlns="http://www.w3.org/1999/xhtml" src="http://davidinspections.com/wp-content/uploads/2017/02/avatar-hombre.jpg"/>
       <nombre>Joaquin Eleazar</nombre>
       <apellido>Aguilar Montero</apellido>
     </bloq>
@@ -42,4 +42,5 @@
       </bloque>
     </experiencia>
   </elementos>
+  <a xmlns="http://www.w3.org/1999/xhtml" href="/index.html" target="marco">Regresar</a>
 </curriculum>
