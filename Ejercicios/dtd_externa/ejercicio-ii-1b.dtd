@@ -1,0 +1,21 @@
+ <!ELEMENT fichero (titulo, ficha+)>
+  <!ELEMENT titulo (#PCDATA)>
+	<!ELEMENT ficha (nombre, apellido+, telefono, direccion*, dui?)>
+  <!ATTLIST ficha
+    tipo (empleado | gerente) "empleado">
+
+	<!ELEMENT nombre (#PCDATA)>
+	<!ATTLIST nombre
+	  sexo (masculino|femenino) #REQUIRED
+	  edad  CDATA  #IMPLIED>
+
+	<!ELEMENT apellido (#PCDATA)>
+  <!ATTLIST apellido
+    tipoApe (primero | segundo | tercero) #REQUIRED>
+
+	<!ELEMENT telefono (#PCDATA)>
+  <!ATTLIST telefono
+    tipo (fijo | celular) #REQUIRED>
+
+	<!ELEMENT direccion (#PCDATA)>
+	<!ELEMENT dui (#PCDATA)>

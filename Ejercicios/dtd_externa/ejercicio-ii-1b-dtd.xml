@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- ejercicio-ii-1b-dtd.xml  Grupo 13 -->
+<?xml-stylesheet type="text/css" href="estilo-ii-1b.css"?>
+<!DOCTYPE fichero SYSTEM "ejercicio-ii-1b.dtd">
+<fichero>
+  <titulo>Fichero</titulo>
+  <ficha tipo="gerente">
+    <nombre sexo="femenino">Angelina</nombre>
+    <apellido tipoApe="primero">Fernandez</apellido>
+    <telefono tipo="fijo">22577777</telefono>
+    <direccion>c/Ulises, 36</direccion>
+    <direccion>c/Tobias, 36</direccion>
+    <dui>12345678-9</dui>
+  </ficha>
+
+<ficha>
+    <nombre sexo="masculino">Andres</nombre>
+    <apellido tipoApe="segundo">Henriquez</apellido>
+    <telefono tipo="fijo">22577777</telefono>
+    <direccion>c/Ulises, 36</direccion>
+    <direccion>c/Tobias, 36</direccion>
+    <dui>12345678-9</dui>
+  </ficha>
+</fichero>
