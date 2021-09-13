@@ -1,13 +1,23 @@
-﻿
+titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    background-color: rgb(178, 218, 226);
+    display: block;
+
+}
+
+
 ficha{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
     font-weight: 400;
-    background-color: rgb(207, 187, 187);
+    background-color: rgb(209, 79, 79);
     width: 100%;
     height: 5%;
-    border: 10px solid rgb(84, 117, 224);
+    border: 10px solid rgb(224, 128, 84);
     position: absolute;
     font-size: 18px;
     position: absolute;
@@ -21,4 +31,3 @@ apellido{
     color: #e6e6e6;
     font-weight: 400;
 }
-
